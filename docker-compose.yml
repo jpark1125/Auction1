@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis
+    container_name: auction-redis
+    ports:
+      - "6380:6379"
