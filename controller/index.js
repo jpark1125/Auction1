@@ -1,5 +1,6 @@
-const user_controller = require('./user');
-
+const user_controller = require("./user");
+const auction_controller = require("./auction");
 module.exports = {
-    user_controller
-}
+  user_controller,
+  auction_controller,
+};
